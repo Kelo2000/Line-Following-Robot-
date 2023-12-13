@@ -18,6 +18,26 @@ The main objectives of the project are:
 - **tests**: Unit tests for validating the functionality of different modules.
 - **images**: Sample images used for testing and documentation.
 
+
+## Main Approach and Features
+
+- **Line Following**: Utilizes computer vision algorithms to enable the robot to follow a black line on the floor accurately.
+
+- **Green Square Detection**: Implements image processing to identify green squares on the course. The robot makes decisions based on the size of the green square, determining whether to continue forward, turn left, or turn right.
+
+- **Red Stop Line Detection**: Incorporates mechanisms to detect a red line on the floor, signaling the robot to stop its movement.
+
+- **Intersection Handling**: Uses intersection detection algorithms to identify the center of intersections on the black road. The robot decides the direction to turn based on the position of the green square relative to the intersection.
+
+- **Real-time Decision Making**: Employs real-time processing to make navigation decisions on-the-fly, ensuring dynamic responsiveness to changing course conditions.
+
+- **Robustness Testing**: Tested under various lighting conditions and environments to ensure robust performance in different scenarios.
+
+- **OpenCV Integration**: Leverages the OpenCV library for image processing, contour detection, and other computer vision tasks.
+
+- **Modular Code Structure**: The code is organized into modular functions for ease of understanding, testing, and potential future enhancements.
+
+
 ## How to Use
 1. Clone the repository to your local machine.
 2. Install the required dependencies using `pip install -r requirements.txt`.
@@ -30,9 +50,9 @@ The main objectives of the project are:
 - NumPy: [Link to NumPy](https://numpy.org/)
 
 ## Contributors
-- [Your Name]
-- [Contributor 1]
-- [Contributor 2]
+- Aya El Mir
+- Lukelo Luoga
+- Kirubel Solomon Tesfaye
 
 ## License
 This project is licensed under the [MIT License](LICENSE).

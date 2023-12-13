@@ -14,9 +14,6 @@ The main objectives of the project are:
 
 ## Project Structure
 - **src**: Contains the Python source code for image processing and robot control.
-- **docs**: Documentation files, including project guidelines, specifications, and flowchart explanations.
-- **tests**: Unit tests for validating the functionality of different modules.
-- **images**: Sample images used for testing and documentation.
 
 
 ## Main Approach and Features
@@ -35,14 +32,12 @@ The main objectives of the project are:
 
 - **OpenCV Integration**: Leverages the OpenCV library for image processing, contour detection, and other computer vision tasks.
 
-- **Modular Code Structure**: The code is organized into modular functions for ease of understanding, testing, and potential future enhancements.
-
 
 ## How to Use
 1. Clone the repository to your local machine.
-2. Install the required dependencies using `pip install -r requirements.txt`.
+2. Install the required dependencies. 
 3. Connect the robot hardware and camera.
-4. Run the main script: `python main.py`.
+4. Run the main script. 
 5. Monitor the robot's behavior through the provided Jupyter Notebook or real-time camera feed.
 
 ## Dependencies

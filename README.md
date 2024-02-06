@@ -1,5 +1,4 @@
-# Embedded_Systems_Fall2023
-# Autonomous Robot Line Following Project
+# Autonomous Line Following Robot Project
 
 ## Overview
 This repository contains the source code and documentation for the final project of the Embedded Systems class (during the Fall 2023 semester) at New York University Abu Dhabi; an autonomous robot designed for line following inspired by the RoboCupJunior Rescue Line Rules 2018. The project aims to develop a robot that can navigate a predefined course marked by a black line while overcoming various challenges, including intersections, green squares, and red stop lines.
